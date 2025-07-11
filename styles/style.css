@@ -1,6 +1,4 @@
 *{
-    margin: 0px;
-    padding: 0px; 
     font-family: 'Raleway';
     
 }
@@ -8,9 +6,9 @@
 /* header section */
 
 .header{
+    padding-top: 2em;
     height: 698px;
     background-image: url('/assets/Hero-bg.png');
-    background-repeat: none;
    
 
 }
@@ -32,19 +30,20 @@
 }
 
 .logo{
-    width: 250px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
 
 }
 
 .button{
     display: inline-block;
-    padding: 12px 28px;
-    border-radius: 6px;
+    padding: 14px 28px;
+    border-radius: 10px;
     background-color:#5d3eff;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+
 
 }
 
@@ -83,4 +82,39 @@
 
     
    border-radius: 8px;
+}
+
+
+
+.stat-div{
+    align-items: center;
+    border-radius: 30px;
+    background-color: #e5e7ff;
+    padding: 20px 60px;
+
+}
+.fix-stat-spacing{
+    padding: 20px 180px;
+}
+
+.stat-text{
+    flex: 1;
+    text-align: left;
+    font-size: 24px;
+}
+.stat-count{
+font-family: 'inter'; 
+    font-size: 80px;
+    font-weight: bold;
+    color: #4e47ff;
+}
+.shape-fixer{
+    margin: 50px 120px;
+}
+.grey-text{
+    color: #aaa;
+}
+.stat-item{
+    text-align: center;
+    width: 200px;
 }
