@@ -174,18 +174,28 @@ textarea{
 }
 footer{
     background-color: #ffff;
- 
+    height: 400px;
     align-items: center;
     border-radius: 30px;
     padding: 20px 60px;
+    
+   
 }
 .fix-footer{
     justify-content: center;
     gap: 60px;
+    
     
 }
 .link-item a{
 
     text-decoration: none;
     color: #636262;
+}
+
+.footerimg{
+    padding-top: 120px;
+    text-align: center;
+
+    
 }
